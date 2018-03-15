@@ -3,14 +3,14 @@
 
 .bg-image {
     height: 100vh;
-    background:  url("../images/monkees.jpg") no-repeat center center fixed;
+    background: url("../images/monkees.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     display: flex;
     align-items: center;
-    
+
 }
 
 .jumbotron {
@@ -19,16 +19,19 @@
 
 .centered {
     color: #fafafa;
+    font-family: "Acme", sans-serif;
+    font-size: 30px;
+    word-spacing: 10px;
 }
 
-.arrow-down{
-    color: #deb96b;
+.arrow-down {
+    color: #dc3545;
     font-size: 30px;
 
 }
 
-#nav{
-    background: #deb96b ;
+#nav {
+    background: #deb96b;
     margin-bottom: 0;
     position: fixed;
     width: 100%;
@@ -40,7 +43,7 @@
 }
 
 
-.menuitem a{
+.menuitem a {
     width: 100%;
     text-decoration: none;
     color: #ffffff;
@@ -50,44 +53,45 @@
     font-family: "Acme", sans-serif;
 }
 
-.hvr-sweep-to-bottom:before{
-    background: rgba(255,255,255, 0.1);
+.hvr-sweep-to-bottom:before {
+    background: rgba(255, 255, 255, 0.1);
     height: 30px;
     color: #fafafa;
-    
+
 }
 
-footer{
+footer {
     margin: 5px;
-    
+
 }
-#footer-details{
+
+#footer-details {
     padding: 5px;
     background-color: #883a38;
-    
+
 }
 
-.center-form{
+.center-form {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
-    
-    
 
-    
-    
+
+
+
+
 }
 
-button[type="submit"]{
+button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     background-color: #deb96b;
     color: #fafafa;
 }
 
-article{
+article {
     height: 100%;
-    background:  url("../images/oldtvs.jpg");
+    background: url("../images/oldtvs.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -95,12 +99,12 @@ article{
     display: flex;
     align-items: center;
     padding-top: 50px;
-    
+
 }
 
-aside{
+aside {
     height: 100%;
-    background:  url("../images/vintage-radios.jpg");
+    background: url("../images/vintage-radios.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -108,94 +112,184 @@ aside{
     display: flex;
     align-items: center;
     padding-top: 50px;
-    
+    color: #fafafa;
+    font-family: "Acme", sans-serif;
+    padding-right: 50px;
+
+
 }
+
+details {
+    height: 100vh;
+    background: url("../images/monkees.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
 .audio {
     padding-left: 50px;
     margin-left: 50px;
     align-items: center;
+    color: #fafafa;
 }
 
 
-.tork{
+.tork {
     float: right;
     padding: 100px;
-    
+
 }
 
-.band{
+.band {
+
     padding: 60px;
-    background-color: #deb98c;
+    background: url("../images/sunburst.jpg");
+    z-index: 1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    padding-top: 50px;
 }
 
-.band h2{
+.band h2 {
     font-size: 40px;
     font-family: "Acme", sans-serif;
-    
+
 }
 
-.band img{
+.band img {
     border-radius: 20%;
 }
 
-.band p{
+.band p {
     font-size: 20px;
     text-align: justify;
     padding-top: 40px;
-    
+
 }
-.mr-3{
+
+
+.mr-3 {
     border-radius: 20%;
     max-width: 200px;
     max-height: 150px;
+    z-index: 2;
+}
+
+.media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ ::after, ::before {
+    box-sizing: border-box;
+}
+.media-body p{
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+
+}
+
+.media-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    ;
 }
 
 .videos {
     padding-left: 40px;
     border-radius: 20%;
+    border-width: 10px;
+    padding-bottom: 40px;
 }
 
-.videos h2{
-        font-size: 40px;
-        font-family: "Acme", sans-serif;
-        color: #fafafa;
-    
-}
-
-#audio p{
+.videos h2 {
+    font-size: 40px;
     font-family: "Acme", sans-serif;
     color: #fafafa;
-    font-size: 20px;
+
+}
+
+.social-links {
+    padding-bottom: 15px;
+    float: right;
     
 }
 
-@media(min-width:992px){
-  .center-form{
-    padding-top: 30px;
-    min-height: 240px;
-    margin: 0 auto;
-    max-width: 50%;
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
-.videos{
-    padding-top: 30px;
-    min-height: 240px;
-    margin: 0 auto;
-    max-width: 50%;
+
+.social-links li a i:hover{
+    background: #e84610;
+    
 }
+
+
+
+
+@media(min-width:992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+    .videos {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
+
 @media screen and (max-width: 400px) {
     ul #nav li a {
         text-align: center;
         float: none;
     }
-    
-@media (max-width: 400px){
-  .videos{
-      max-width: 50%;
-  }
-}
-    
-/*
+
+    @media (max-width: 400px) {
+        .videos {
+            max-width: 50%;
+        }
+    }
+
+    /*
 .list-inline {
     background-color: #000000;
     color: #ffffff;
